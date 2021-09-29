@@ -1,0 +1,52 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile > img {
+  border-radius: 50%;
+  width: 15%;
+  margin-right: 1rem;
+}
+
+.name-date-container > p {
+  opacity: 0.6;
+}
+
+.active {
+  background-color: var(--very-dark-grayish-blue);
+}
+
+@media screen and (min-width: 1020px) {
+  .active {
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .profile-container {
+    border-radius: 0 0 10px 0;
+  }
+
+  .hide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .profile-container {
+    border-radius: 0 0 10px 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+}

@@ -1,0 +1,18 @@
+.share-icon-bg {
+  background-color: var(--light-grayish-blue);
+  padding: 0.5rem 0.5rem;
+  border-radius: 60%;
+
+  position: absolute;
+  right: 7%;
+  transition: all 0.2s;
+}
+
+.share-icon {
+  transform: translateX(2px);
+}
+
+.clicked {
+  background-color: var(--desaturated-dark-blue);
+  fill: var(--light-grayish-blue);
+}
