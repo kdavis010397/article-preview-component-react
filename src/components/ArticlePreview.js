@@ -3,7 +3,6 @@ import classes from "./ArticlePreview.module.css";
 import heroImage from "../images/drawers.jpg";
 
 import Profile from "./Profile";
-import Share from "./Share";
 
 const ArticlePreview = () => {
   return (
